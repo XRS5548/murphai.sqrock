@@ -20,7 +20,7 @@ export async function genrateAnswer(text: string) {
         return chat.choices[0].message.content
     }
     catch (e) {
-        console.log(e.message)
+        console.log(e)
         return "Model Not Responding"
     }
 }
@@ -63,7 +63,7 @@ export async function genrateAnswerWithStorage(text: UsersChat[]) {
         console.log(body.choices[0].message.role)
     }
     catch (e) {
-        console.log(e.message)
+        console.log(e)
         return "Model Not Responding"
     }
 }
