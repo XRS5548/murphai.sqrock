@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Murph AI – Intelligent AI Assistant by SQROCK",
     description:
       "Meet Murph, a powerful AI assistant built by SQROCK. Get expert help with coding, engineering, technology, and problem solving instantly.",
-    url: "https://your-domain.com",
+    url: "https://murph.sqrock.cloud",
     siteName: "Murph AI",
     type: "website",
   },
